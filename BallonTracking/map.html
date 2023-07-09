@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <style>
+        #map {
+            height: 800px;
+        }
+    </style>
+</head>
+<body>
+    <input type="file" id="file-input" webkitdirectory multiple>
+    <button onclick="getFilePaths()">Get File Paths</button>
+
+    <div id="map"></div>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="script.js"></script> <!-- Include the separate JavaScript file -->
+</body>
+</html>
